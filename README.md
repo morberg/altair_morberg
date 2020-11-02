@@ -9,7 +9,7 @@
 ## How to use
 
 ```python
-# hide_output
+#hide_output
 import altair as alt
 import altair_morberg.core as morberg
 
