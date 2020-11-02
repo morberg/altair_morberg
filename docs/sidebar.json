@@ -1,6 +1,7 @@
 {
   "altair_morberg": {
     "Overview": "/",
-    "altair_morberg": "core.html"
+    "altair_morberg": "core.html",
+    "Some examples using altair_morberg": "examples.html"
   }
 }
