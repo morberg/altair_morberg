@@ -25,6 +25,7 @@ def theme():
                 "frame": "group",
                 "offset": 15,
                 "fontSize": 20,
+                "font": "Avenir Next Demi Bold",
             },
             "view": {"strokeWidth": 0, "continuousWidth": 600, "continuousHeight": 400},
         }
