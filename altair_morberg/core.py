@@ -9,13 +9,17 @@ def theme():
         "config": {
             "axis": {
                 "titleFontSize": 16,
-                "titleFontWeight": "normal",
                 "labelFontSize": 12,
+                "titleFont": "Avenir Next Medium, sans-serif",
             },
             "axisX": {"grid": False},
             "axisY": {"gridDash": [3], "gridWidth": 0.4},
-            "legend": {"titleFontSize": 14, "labelFontSize": 14},
-            "font": "avenir, helvetica, sans-serif",
+            "legend": {
+                "titleFontSize": 14,
+                "titleFont": "Avenir Next Medium, sans-serif",
+                "labelFontSize": 13,
+            },
+            "font": "Avenir Next, sans-serif",
             "title": {
                 "anchor": "start",
                 "frame": "group",
