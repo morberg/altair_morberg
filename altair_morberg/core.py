@@ -20,6 +20,10 @@ def theme():
                 "labelFontSize": 13,
             },
             "font": "Avenir Next, sans-serif",
+            "headerRow": {
+                "labelFont": "Avenir Next Medium",
+                "labelFontSize": 14,
+            },
             "title": {
                 "anchor": "start",
                 "frame": "group",
