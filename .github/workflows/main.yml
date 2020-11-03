@@ -28,6 +28,9 @@ jobs:
     - name: Check if there is no diff library/notebooks
       run: |
         if [ -n "$(nbdev_diff_nbs)" ]; then echo -e "!!! Detected difference between the notebooks and the library"; false; fi
+    - name: Install requirements
+      run: |
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run tests
       run: |
         nbdev_test_nbs
