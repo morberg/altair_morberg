@@ -21,6 +21,7 @@ def theme():
             },
             "font": "Avenir Next, sans-serif",
             "header": {
+                "labelFont": "Avenir Next Medium",
                 "labelFontSize": 14,
                 "titleFont": "Avenir Next Medium",
                 "titleFontSize": 16,
