@@ -10,16 +10,21 @@ def theme():
             "axis": {
                 "titleFontSize": 16,
                 "labelFontSize": 12,
-                "titleFont": "Avenir Next Medium, sans-serif",
+                "titleFont": "Avenir Next Medium",
             },
-            "axisX": {"grid": False},
+            "axisX": {"grid": False, "gridWidth": 0.4},
             "axisY": {"gridDash": [3], "gridWidth": 0.4},
             "legend": {
                 "titleFontSize": 14,
-                "titleFont": "Avenir Next Medium, sans-serif",
+                "titleFont": "Avenir Next Medium",
                 "labelFontSize": 13,
             },
             "font": "Avenir Next, sans-serif",
+            "header": {
+                "labelFontSize": 14,
+                "titleFont": "Avenir Next Medium",
+                "titleFontSize": 16,
+            },
             "headerRow": {
                 "labelFont": "Avenir Next Medium",
                 "labelFontSize": 14,
@@ -27,7 +32,7 @@ def theme():
             "title": {
                 "anchor": "start",
                 "frame": "group",
-                "offset": 15,
+                "offset": 10,
                 "fontSize": 20,
                 "font": "Avenir Next Demi Bold",
             },
