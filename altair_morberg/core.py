@@ -10,7 +10,7 @@ def theme():
             "axis": {
                 "titleFontSize": 16,
                 "labelFontSize": 12,
-                "titleFont": "Avenir Next Medium",
+                "titleFontWeight": "normal",
             },
             "axisX": {"grid": False, "gridWidth": 0.4},
             "axisY": {"gridDash": [3], "gridWidth": 0.4},
@@ -26,10 +26,7 @@ def theme():
                 "titleFont": "Avenir Next Medium",
                 "titleFontSize": 16,
             },
-            "headerRow": {
-                "labelFont": "Avenir Next Medium",
-                "labelFontSize": 14,
-            },
+            "headerRow": {"labelFont": "Avenir Next Medium", "labelFontSize": 14,},
             "title": {
                 "anchor": "start",
                 "frame": "group",
