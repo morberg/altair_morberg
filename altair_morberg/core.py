@@ -8,8 +8,9 @@ def theme():
     return {
         "config": {
             "axis": {
-                "titleFontSize": 16,
                 "labelFontSize": 12,
+                "titleFont": "Avenir Next Medium",
+                "titleFontSize": 14,
                 "titleFontWeight": "normal",
             },
             "axisX": {"grid": False, "gridWidth": 0.4},
