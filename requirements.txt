@@ -1,1 +1,2 @@
 vega-datasets==0.8.0
+nb_black
