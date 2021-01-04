@@ -1,6 +1,6 @@
 # altair_morberg
 
-
+![PyPI](https://img.shields.io/pypi/v/altair-morberg)
 
 ## Install
 
