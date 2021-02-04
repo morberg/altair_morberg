@@ -12,10 +12,10 @@ def theme():
                 "labelColor": "#666",
                 "titleFontSize": 14,
                 "titleFontWeight": "normal",
-                "titleColor": "#666"
+                "titleColor": "#666",
             },
             "axisX": {"grid": False, "gridWidth": 0.4},
-            "axisY": {"gridDash": [3], "gridWidth": 0.4},
+            "axisY": {"gridDash": [3], "gridWidth": 0.4, "offset": 10},
             "legend": {
                 "titleFontSize": 14,
                 "titleFontWeight": "normal",
