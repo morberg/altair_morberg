@@ -1,6 +1,6 @@
 # altair_morberg
 
-![PyPI](https://img.shields.io/pypi/v/altair-morberg)
+
 
 ## Install
 
@@ -30,4 +30,6 @@ make test
 
 If you are happy with the results push a new version to pypi:
 
+```
+make release
 ```
